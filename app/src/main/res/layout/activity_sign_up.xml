@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+
+    //edit text for username//
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUserName"
+        android:hint="@string/username"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    //edit text for password//
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:layout_below="@+id/etUserName"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+      android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        />
+    //edit text for Email//
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmail"
+        android:layout_below="@+id/etPassword"
+        android:hint="@string/email"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        />
+    //edit text for Phonenumber//
+
+    //button singup//
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEmail"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sign_up"
+        android:id="@+id/btnSignup"
+/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_account"
+        android:layout_marginTop="390dp"
+        android:id="@+id/tv"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signinhere"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:layout_marginTop="390dp"
+        android:layout_toRightOf="@+id/tv"
+        android:id="@+id/tvSignInHere"
+        />
+</RelativeLayout>

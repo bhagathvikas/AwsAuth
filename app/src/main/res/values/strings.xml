@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AwsAuth</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="email">Email</string>
+    <string name="phonenumber">PhoneNumber</string>
+    <string name="sign_up">Sign UP</string>
+    <string name="otp">OTP</string>
+    <string name="submit">Submit</string>
+    <string name="signin">SignIn</string>
+    <string name="already_have_account">Already Have Account</string>
+    <string name="signinhere">SignInHere</string>
+    <string name="logged_in_sucessfully">Logged In Sucessfully</string>
+
+</resources>
